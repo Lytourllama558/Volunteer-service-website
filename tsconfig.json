@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // ...existing options...
+    "jsx": "react-jsx"
+  },
+  "exclude": [
+    "src/supabase/functions/**"
+  ]
+}
