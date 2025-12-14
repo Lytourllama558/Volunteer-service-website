@@ -1,6 +1,7 @@
 import { Menu, X, User } from 'lucide-react';
 import { useState } from 'react';
 import { View } from '../App';
+import logoImg from '../image/01.png';
 
 type NavigationProps = {
   currentView: View;
@@ -19,7 +20,7 @@ export function Navigation({ currentView, onNavigate, isLoggedIn = false, onShow
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
             <img 
-              src="/src/image/01.png" 
+              src={logoImg} 
               alt="志愿者之家 Logo" 
               className="w-9 h-8 object-contain" 
             />

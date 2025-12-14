@@ -1,5 +1,6 @@
 import { Search } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import heroImg from '../image/02.jpg';
 
 type HeroProps = {
   onBrowse: () => void;
@@ -35,7 +36,7 @@ export function Hero({ onBrowse }: HeroProps) {
           </div>
           <div className="relative">
             <ImageWithFallback
-              src="/src/image/02.jpg"
+              src={heroImg}
               alt="志愿者一起工作"
               className="rounded-lg shadow-2xl"
             />
